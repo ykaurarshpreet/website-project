@@ -35,45 +35,59 @@
             </div>
         </div>
     </nav>
-
-
-    <h2>Full Stack | Front-End</h2>
+</header>
+    
 
 
     <section id="firstsection">
+    <h2>Full Stack | Front-End</h2>
     <h1>Arshpreet <br> Kaur <br> Portfolio</h1>
-    <img id="graphic" src="https://wallpapers.com/images/hd/cute-cat-eyes-profile-picture-uq3edzmg1guze2hh.jpg" alt="a small kitten's face wrapped with a small cozy white blanket" >
+    <div>
+    <img id="graphic" src="./img/vecteezy_peaceful-captivating-software-development-code-no-background_60156916.png" alt="a small kitten's face wrapped with a small cozy white blanket" height="600px" width="600px">
+    </div>
     </section>
 
-    </header>
-    
     <hr width="90%" color="gray" >
 
-    <div id="project-container">
-        <h1>Projects</h1>
-        <img src="https://static.vecteezy.com/system/resources/previews/029/163/765/non_2x/portrait-of-a-confident-young-businessman-standing-with-arms-crossed-in-office-an-intriguing-portrait-of-a-businessperson-dressed-in-a-suit-ai-generated-free-photo.jpg" alt="Avatar" style="width:90px">
-        <p>Project 1</p>
+    <section id="project-container">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://static.vecteezy.com/system/resources/previews/029/163/765/non_2x/portrait-of-a-confident-young-businessman-standing-with-arms-crossed-in-office-an-intriguing-portrait-of-a-businessperson-dressed-in-a-suit-ai-generated-free-photo.jpg" alt="project 1" style="width:90px" class="project-img"/>
+                </div>
+                    <h2 class="project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="project btn" 
+                        onclick="location.href='https://github.com/ykaurarshpreet/frontend-project-manager.git/'">GitHub</button>
+                     </div>
+                </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+        
+                    <img src="https://www.publicdomainpictures.net/pictures/190000/velka/young-business-woman-1470305689586.jpg" alt="Avatar" style="width:90px" class="project-img"/>
+                </div>
+                    <h2 class="project-title">Project 2</h2>
+                    <div class="btn-container">
+                        <button class="project btn" 
+                        onclick="location.href='https://github.com/ykaurarshpreet/alumnai-student-app-frontend.git/'">GitHub</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
 
-    
-
-        <img src="https://www.publicdomainpictures.net/pictures/190000/velka/young-business-woman-1470305689586.jpg" alt="Avatar" style="width:90px">
-        <p>Project 2</p>
-       
-   
-
-     
-        <img src="https://as2.ftcdn.net/v2/jpg/05/53/88/71/1000_F_553887180_izq4lBt0fAFizDQbTbl9BGTb8yciylJN.jpg" alt="Avatar" style="width:90px">
-        <p>Project 3</p>
-    
-    </div>
 
 <div id="bio">
 
-    <h1>Bio</h1>
+    <h1 class="bio-title">Bio</h1>
+    <img src="./img/Screenshot 2025-12-18 233205.png" alt="picture of me">
     <p>Ever since I was a child, I had a dream to be an artist. Little did I know I’d find a collaborative interest in coding. Ultimately I want to combine my talents in Design and Code. Creative artist with unique experience in HTML, CSS,JavaScript, and React. Bachelors in Communications Studies. Traditional Artist. Graphic Designer.</p>
 
 </div>
 
+<section id="contact">
     <div class="main-contact-form"> 
         <!-- <img src="" alt=""> -->
     <h2>Let's Work Together</h2>
@@ -90,6 +104,7 @@
         <input name="submit" type="submit" value="Submit">
       </form>
     </div>
+</section>
 
     <footer>
         <p>&copy; 2025 My Website</p>
